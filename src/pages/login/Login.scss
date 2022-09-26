@@ -1,4 +1,4 @@
-.register {
+.login {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(
@@ -19,16 +19,6 @@
       .logo {
         height: 40px;
       }
-      .loginbutton {
-        background-color: red;
-        border: none;
-        color: white;
-        border-radius: 5px;
-        padding: 5px 15px;
-        font-size: 16px;
-        font-weight: 500;
-        cursor: pointer;
-      }
     }
   }
   .container {
@@ -42,39 +32,45 @@
     align-items: center;
     justify-content: center;
     color: white;
-    h1 {
-      font-size: 50px;
-    }
-    h2 {
-      margin: 20px;
-    }
-    p {
-      font-size: 20px;
-    }
-    .input {
-      width: 50%;
-      background-color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 20px;
-      height: 50px;
+
+    form {
+      width: 300px;
+      height: 300px;
+      padding: 30px;
       border-radius: 5px;
+      background-color: var(--main-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
       input {
-        flex: 9;
-        height: 100%;
-        border: none;
-        padding: 0 10px;
+        height: 40px;
         border-radius: 5px;
+        background-color: grey;
+        color: white;
+        padding: 10px;
+
+        &::placeholder {
+          color: lightgray;
+        }
       }
-      .registerbutton {
-        flex: 3;
-        height: 100%;
+
+      button {
+        height: 40px;
+        border-radius: 5px;
         background-color: red;
+        color: white;
         border: none;
-        color: #fff;
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: 500;
         cursor: pointer;
+      }
+
+      span {
+        color: lightgray;
+        b {
+          color: white;
+        }
       }
     }
   }
