@@ -8,6 +8,7 @@
     margin-left: 50px;
   }
   .wrapper {
+    margin-left: 10px;
     position: relative;
     .sliderArrow {
       width: 50px;
@@ -32,7 +33,7 @@
       display: flex;
       //   the content tends to fit inside container which is 100%(css propertyfrom parent container)
       width: max-content;
-      // transform: translateX(0px);
+      transition: all 0.5s ease;
     }
   }
 }
