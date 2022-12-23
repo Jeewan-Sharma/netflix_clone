@@ -27,7 +27,7 @@ const Featured = ({ type }) => {
           </div>
         )}
         <img
-          src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/289023719_2187519378079536_1027581311077867242_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=eLVumAwi-uoAX_j5pZC&_nc_ht=scontent.fktm8-1.fna&oh=00_AT9oFfjq8UGwAmKtueC9uuSxfrH0ttoEbjghr-QM0Tn6ew&oe=6334CA23"
+          src="https://scontent.fbir7-1.fna.fbcdn.net/v/t31.18172-8/26240518_909957032502450_2573849113003981126_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=qkWqb6d8wLoAX88EEWu&_nc_ht=scontent.fbir7-1.fna&oh=00_AfA4CUcQ0x7ip-8_4XajJNdc0UDE3gaXK_597o4pDjsxnA&oe=63CD647F"
           alt=""
         />
         <div className="info">

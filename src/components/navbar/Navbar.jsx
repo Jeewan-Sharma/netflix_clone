@@ -29,7 +29,7 @@ const Navbar = () => {
           <span>KIDS</span>
           <NotificationsIcon className="icon" />
           <img
-            src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.6435-9/72908493_1407283652756657_8587124918884237312_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ENonWvE3iJ0AX9zJUbs&_nc_ht=scontent.fktm8-1.fna&oh=00_AT9rV-h7ryC-g6i8kLNdfxFY-SRvPYPu2ELWwQUNdVvf0A&oe=6353C538"
+            src="https://scontent.fbir7-1.fna.fbcdn.net/v/t1.6435-9/118649231_1663740450457434_7566467961128852698_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_ohc=1ZbPWh3fI7sAX-wFn2G&_nc_ht=scontent.fbir7-1.fna&oh=00_AfAKT4zKZeGDKlZ6VR8GFETkmCauNWeYhLALEHSreSWSIA&oe=63CD5386"
             alt=""
           />
           <div className="profile">
